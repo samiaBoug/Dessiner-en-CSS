@@ -1,0 +1,1130 @@
+
+/*house */
+body{
+    margin: 0;
+   
+}
+.house {
+    position: relative;
+}
+
+.Roof {
+    position: relative;
+    height: 250px;
+    width: 650px;
+    clip-path: polygon(45% 61%, 0% 100%, 89% 100%);
+    background-color: rgb(70, 67, 67);
+    margin-left: 100px;
+    border: solid;
+}
+
+.unterroof {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    height: 220px;
+    width: 530px;
+    clip-path: polygon(45% 61%, 9% 96%, 80% 97%);
+    background-color: rgb(74, 72, 72);
+
+}
+
+.windowroof {
+    position: absolute;
+    height: 83px;
+    width: 200px;
+    clip-path: inset(53% 11% 15% 10%);
+    background-color: grey;
+    border: solid;
+    top: 135px;
+    left: 139px;
+
+}
+
+.windowroof1 {
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    top: 117px;
+    left: 137px;
+    border: solid;
+    background: linear-gradient(0deg, rgb(128, 125, 123), rgb(19, 18, 17) 60%);
+    clip-path: polygon(51% 67%, 0% 100%, 100% 100%);
+}
+
+.box1 {
+    position: absolute;
+    width: 29px;
+    height: 9px;
+    border: black solid;
+    top: 194px;
+    left: 197px;
+    background: linear-gradient(135deg, #76a4f5 -20%, #d8dfe1 120%)
+    
+}
+
+.box2 {
+    position: absolute;
+    width: 29px;
+    height: 9px;
+    border: black solid;
+    top: 183px;
+    left: 197px;
+    background: linear-gradient(135deg, #76a4f5 -20%, #d8dfe1 120%)
+}
+
+.box3 {
+    position: absolute;
+    width: 29px;
+    height: 9px;
+    border: black solid;
+    top: 194px;
+    left: 166px;
+    background: linear-gradient(135deg, #76a4f5 -20%, #d8dfe1 120%)
+}
+
+.box4 {
+    position: absolute;
+    width: 29px;
+    height: 9px;
+    border: black solid;
+    top: 183px;
+    left: 235px;
+    background: linear-gradient(135deg, #76a4f5 -20%, #d8dfe1 120%)
+}
+
+.box5 {
+    position: absolute;
+    width: 29px;
+    height: 9px;
+    border: black solid;
+    top: 194px;
+    left: 235px;
+    background: linear-gradient(135deg, #76a4f5 -20%, #d8dfe1 120%)
+}
+
+.box6 {
+    position: absolute;
+    width: 29px;
+    height: 9px;
+    border: black solid;
+    top: 183px;
+    left: 266px;
+    background: linear-gradient(135deg, #76a4f5 -20%, #d8dfe1 120%)
+}
+
+.box7 {
+    position: absolute;
+    width: 29px;
+    height: 9px;
+    border: black solid;
+    top: 194px;
+    left: 266px;
+    background: linear-gradient(135deg, #76a4f5 -20%, #d8dfe1 120%)
+}
+
+.box8 {
+    position: absolute;
+    width: 29px;
+    height: 9px;
+    border: black solid;
+    top: 183px;
+    left: 166px;
+    background: linear-gradient(135deg, #76a4f5 -20%, #d8dfe1 120%)
+}
+.smoke{
+    position: absolute;
+    top: 0;
+    top: 0;
+    animation: smoke 5s linear 2s infinite normal ;
+}
+.smoke1 {
+    position: relative;
+    top: 120px;
+    left: 150px;
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(236, 245, 236);
+    transform: rotate(9deg);
+    box-shadow: -2px 0px 2px rgb(191, 192, 191);
+}
+
+.smoke2 {
+    position: relative;
+    top: 110px;
+    left: 153px;
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:rgb(236, 245, 236);
+    box-shadow: -1px 1px 2px rgb(191, 192, 191);
+   
+    transform: rotate(9deg);
+
+}
+@keyframes smoke {
+    0%{}
+   
+         100% {
+           
+             top: -40px;
+            
+             opacity: 0;
+         }
+    
+}
+
+.chimney{
+    position: absolute;
+    top: 198px;
+    left: 160px;
+    height: 45px;
+    width: 27px;
+    background-color: rgb(65, 64, 64);
+    border: solid grey;
+    border-left:transparent;   
+}
+.chimney2 {
+    position: absolute;
+    top: 195px;
+    left: 155px;
+    height: 6px;
+    width: 37px;
+    background-color: rgb(56, 55, 55);
+    border: solid ;
+    border-radius: 19px 19px 1px 1px;
+}
+.part2ofHouse {
+    position: relative;
+    left: 123px;
+    top: -2px;
+    width: 534px;
+    height: 270px;
+    border: solid;
+    margin-bottom: 30px;
+    background:linear-gradient(20deg, rgb(79, 80, 78),rgb(128, 129, 127));
+
+}
+.triangl1{
+    position: absolute;
+    clip-path: polygon(50% 0%, 50% 58%, 100% 0);
+    width: 55px;
+    height: 40px;
+    background-color: rgb(93, 91, 91);
+    left: 625px;
+    top: 253px;  
+}
+.triangl2 {
+    position: absolute;
+    clip-path: polygon(50% 0%, 50% 77%, 0 0);
+    width: 48px;
+    height: 43px;
+    background-color: rgb(93, 91, 91);
+    left: 101px;
+    top: 253px;
+}
+.attic{
+    position: relative;
+    width:  534px;
+    height: 10px;
+    background-color: grey;
+    top: 0;
+    left: 124px;
+    z-index: 2;
+    border: solid;
+}
+.wall1{
+    clip-path: polygon(0 2%, 75% 0, 77% 98%, 0 96%);
+    position: absolute;
+    background-color: rgb(108, 102, 102);
+    z-index: 2;
+    border: solid;
+    width: 72px;
+    height: 296px;
+    top: 255px;
+    left: 240px;
+}
+.wall2{
+    position: absolute;
+    background-color: rgb(140, 136, 136);
+        z-index: 2;
+        border: solid;
+        width: 52px;
+        height: 289px;
+        border: solid;
+        top: 256px;
+        left: 290px;
+}
+.wall3 {
+    position: absolute;
+    clip-path: polygon(0 0, 75% 2%, 77% 98%, 0 100%);
+    background-color: rgb(162, 157, 157);
+    z-index: 2;
+    border: solid;
+    width: 57px;
+    height: 289px;
+    border: solid;
+    top: 256px;
+    left: 340px;
+}
+.break1 {
+    position: absolute;
+    border: solid;
+    height: 8px;
+    background-color: rgb(165, 153, 136);
+    width: 49px;
+    top: 320px;
+    left: 241px;
+    z-index: 2;
+    transform: rotate(-8deg);
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.break2 {
+    position: absolute;
+    border: solid;
+    height: 8px;
+    background-color: rgb(194, 181, 162);
+    width: 49px;
+    top: 316px;
+    left: 291px;
+    z-index: 2;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.break3 {
+    position: absolute;
+    border: solid;
+    height: 8px;
+    background-color: rgb(241, 226, 204);
+    width: 48px;
+    top: 320px;
+    left: 340px;
+    z-index: 2;
+    transform: rotate(8deg);
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.break4 {
+    position: absolute;
+    border: solid;
+    height: 8px;
+    background-color: rgb(192, 179, 160);
+    width: 48px;
+    top: 470px;
+    left: 241px;
+    z-index: 2;
+    transform: rotate(8deg);
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.break5 {
+    position: absolute;
+    border: solid;
+    height: 8px;
+    background-color: rgb(211, 199, 181);
+    width: 49px;
+    top: 473px;
+    left: 291px;
+    z-index: 2;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.break6 {
+    position: absolute;
+    border: solid;
+    height: 8px;
+    background-color: rgb(246, 233, 213);
+    width: 48px;
+    top: 470px;
+    left: 340px;
+    z-index: 2;
+    transform: rotate(-8deg);
+    border-left: transparent;
+    border-right: transparent;
+}
+.window4{
+    height: 40px;
+    width: 27px;
+    border: solid;
+    position: absolute;
+    background-color: rgb(142, 152, 100);
+    top: 260px;
+    left: 300px;
+    z-index: 2;
+}
+.window5 {
+    height: 40px;
+    width: 27px;
+    border: solid;
+    position: absolute;
+    background-color: rgb(142, 152, 100);
+    top: 340px;
+    left: 300px;
+    z-index: 2;
+}
+.window6 {
+    height: 40px;
+    width: 27px;
+    border: solid;
+    position: absolute;
+    background-color: rgb(142, 152, 100);
+    top: 420px;
+    left: 300px;
+    z-index: 2;
+}
+.glass{
+    width: 9px;
+    height: 12px;
+    border: black solid;
+    z-index: 2;
+    background: linear-gradient(135deg, #76a4f5 -20%, #d8dfe1 120%)
+}
+.glass1{
+    position: absolute;
+    top: 266px;
+    left: 304px;
+}
+.glass2 {
+    position: absolute;
+    top: 266px;
+    left: 314px;
+}
+.glass3 {
+    position: absolute;
+    top: 281px;
+    left: 314px;
+}
+.glass4 {
+    position: absolute;
+    top: 281px;
+    left: 304px;
+}
+.glass5 {
+    position: absolute;
+    top: 345px;
+    left: 314px;
+}
+.glass6 {
+    position: absolute;
+    top: 345px;
+    left: 304px;
+}
+.glass7 {
+    position: absolute;
+    top: 361px;
+    left: 304px;
+}
+.glass8 {
+    position: absolute;
+    top: 361px;
+    left: 314px;
+}
+.glass9 {
+    position: absolute;
+    top: 426px;
+    left: 314px;
+}
+.glass10 {
+    position: absolute;
+    top: 426px;
+    left: 304px;
+}
+.glass11 {
+    position: absolute;
+    top: 442px;
+    left: 314px;
+}
+.glass12 {
+    position: absolute;
+    top: 442px;
+    left: 304px;
+}
+
+.doorframe{
+    position: relative;
+    clip-path: polygon(0% 0%, 0% 100%, 16% 100%, 15% 0, 85% 0, 85% 100%, 13% 100%, 15% 100%, 100% 100%, 100% 0%);
+    width: 100px;
+    height: 145px;
+    background-color:rgb(70, 67, 67);
+    top: -140px;
+    left: 149px;
+    z-index: 2;
+}
+.linedoorframe{
+    position: absolute;
+    top: 455px;
+    left: 149px;
+    border: solid rgb(192, 179, 160);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    z-index: 2;
+   
+}
+.linedoorframe1 {
+    position: absolute;
+    top: 485px;
+    left: 149px;
+    border: solid rgb(192, 179, 160);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    z-index: 2;
+
+}
+.linedoorframe2 {
+    position: absolute;
+    top:525px;
+    left: 149px;
+    border: solid rgb(192, 179, 160);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    z-index: 2;
+
+}
+.linedoorframe3 {
+    position: absolute;
+    top: 560px;
+    left: 149px;
+    border: solid rgb(192, 179, 160);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    z-index: 2;
+
+}
+.linedoorframe4 {
+    position: absolute;
+    top: 455px;
+    left: 234px;
+    border: solid rgb(192, 179, 160);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    z-index: 2;
+
+}
+.linedoorframe5 {
+    position: absolute;
+    top: 485px;
+    left: 234px;
+    border: solid rgb(192, 179, 160);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    z-index: 2;
+
+}
+.linedoorframe6 {
+    position: absolute;
+    top: 525px;
+    left: 234px;
+    border: solid rgb(192, 179, 160);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    z-index: 2;
+
+}
+.linedoorframe7 {
+    position: absolute;
+    top: 560px;
+    left: 234px;
+    border: solid rgb(192, 179, 160);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    z-index: 2;
+
+}
+
+.doorframe1{
+    position: absolute;
+    clip-path: polygon(52% 52%, 0% 100%, 20% 100%, 50% 71%, 50% 71%, 80% 100%, 0 100%, 0 100%, 100% 100%, 52% 53%);
+    background-color: rgb(70, 67, 67);
+    width: 130px;
+    height: 104px;
+    top: 340px;
+    left: 133px;
+    z-index: 3;
+    
+}
+.linedoorframe8{
+    position: absolute;
+    top: 397px;
+    left: 190px;
+    width: 15px;
+    transform: rotate(96deg);
+    z-index: 3;
+    border-color: rgb(114, 76, 34);
+    box-shadow: 0 0 9px rgb(0, 0, 0);
+}
+.doorframe2 {
+    position: absolute;
+    clip-path: polygon(0 37%, 29% 10%, 56% 36%, 57% 100%, 0% 100%);
+    background: linear-gradient(0deg, rgb(128, 125, 123), rgb(68, 60, 52));
+    width: 130px;
+    height: 150px;
+    top: 383px;
+    left: 163px;
+    z-index: 0;
+
+}
+.door{
+    position: absolute;
+    background-color: rgb(142, 152, 100);
+    border: solid;
+    width: 50px;
+    height: 80px;
+    top:449px;
+    left: 172px;
+    z-index: 2;
+   
+}
+.doorlock{
+    position: absolute;
+    background-color:black;
+    border: solid;
+    clip-path: circle(50%);
+    height: 3px;
+    width: 3px;
+    top: 490px;
+    left: 174px;
+    z-index: 2;
+}
+.doorglass1{
+    width: 28px;
+    height: 35px;
+    background: linear-gradient(135deg, #a3c3fa -20%, #d8dfe1 120%);
+    position: absolute;
+    top: 455px;
+    left:186px;
+    border: solid;
+    z-index:2;
+}
+.doorglass2 {
+    width: 28px;
+    height: 28px;
+    background: linear-gradient(135deg, #9ca7f8 -20%, #fafbfb 120%);
+    position: absolute;
+    top: 495px;
+    left: 186px;
+    border: solid;
+    z-index: 2;
+}
+.stair1{
+    position: absolute;
+    background-color:rgb(78, 76, 76);
+    width: 60px;
+    height: 4px;
+    top: 532px;
+    left: 167px;
+    border: solid;
+}
+.stair2 {
+    position: absolute;
+    background-color: rgb(176, 169, 169);
+    width: 80px;
+    height: 6px;
+    top: 539px;
+    left: 162px;
+   
+}
+.stair3 {
+    position: absolute;
+    background-color: rgb(93, 92, 92);
+    width: 80px;
+    height: 6px;
+    top: 545px;
+    left: 162px;
+    border: solid;
+
+}
+.stair4 {
+    position: absolute;
+    background-color: rgb(199, 193, 193);
+    width: 80px;
+    height: 6px;
+    top: 555px;
+    left: 162px;
+
+}
+.stair5 {
+    position: absolute;
+    background-color: rgb(96, 95, 95);
+    width: 80px;
+    height: 6px;
+    top: 561px;
+    left: 162px;
+    border: solid;
+
+}
+.stair6 {
+    position: absolute;
+    background-color: rgb(207, 199, 199);
+    width: 80px;
+    height: 6px;
+    top: 571px;
+    left: 162px;
+
+}
+.porch{
+    clip-path: polygon(21% 53%, 86% 53%, 100% 100%, 0% 100%);
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    background-color: rgb(46, 44, 44);
+    top: 545px;
+    left: 119px;
+    z-index: 2;
+   
+}
+
+.window1{
+    position: absolute;
+    border: solid;
+    background-color:rgb(142, 152, 100);
+    width: 40px;
+    height: 40px;
+    top: 280px;
+    left: 134px;
+}
+.window2 {
+    position: absolute;
+    border: solid;
+    background-color: rgb(142, 152, 100);
+    width: 40px;
+    height: 40px;
+    top: 280px;
+    left: 190px;
+}
+.balcony{
+    position: absolute;
+    width: 78px;
+    height: 44px;
+    background-color: rgb(111, 119, 78);
+    border: solid;
+    top: 340px;
+    left:144px; 
+}
+.balcony1{
+    position: absolute;
+        width: 50px;
+        height: 7px;
+        background-color: grey;
+        border: solid;
+        top: 320px;
+        left: 185px;
+}
+.balcony2 {
+    position: absolute;
+    width: 50px;
+    height: 7px;
+    background-color: grey;
+    border: solid;
+    top: 320px;
+    left: 128px;
+}
+.balcony3 {
+    position: absolute;
+    width: 89px;
+    height: 7px;
+    background-color: grey;
+    border: solid;
+    top: 385px;
+    left: 138px;
+}
+.window3 {
+    position: absolute;
+    border: solid;
+    background-color: rgb(142, 152, 100);
+    width: 40px;
+    height: 40px;
+    top: 480px;
+    left: 133px;
+}
+.balconylock{
+position: absolute;
+    background-color: rgb(37, 37, 37);
+    border: solid;
+    clip-path: circle(60%);
+    height: 3px;
+    width: 3px;
+    top: 362px;
+    left: 182px;
+    z-index: 2;
+}
+
+.glasswindow1{
+    position: absolute;
+        border: solid;
+        background: linear-gradient(135deg, #76a4f5 -20%, #d8dfe1 120%);
+        width: 29px;
+        height: 16px;
+        top: 302px;
+        left: 139px;
+}
+.glasswindow2 {
+    position: absolute;
+    border: solid;
+    background: linear-gradient(135deg, #76a4f5 -20%, #d8dfe1 120%);
+    width: 29px;
+    height: 16px;
+    top: 284px;
+    left: 139px;
+}
+.glasswindow3 {
+    position: absolute;
+    border: solid;
+   background: linear-gradient(135deg, #76a4f5 -20%, #d8dfe1 120%);
+    width: 29px;
+    height: 16px;
+    top: 302px;
+    left: 195px;
+}
+
+.glasswindow4 {
+    position: absolute;
+    border: solid;
+    background: linear-gradient(135deg, #76a4f5 -20%, #d8dfe1 120%);
+    width: 29px;
+    height: 16px;
+    top: 284px;
+    left: 195px;
+}
+.glasswindow5 {
+    position: absolute;
+    border: solid;
+    background: linear-gradient(135deg, #76a4f5 -20%, #d8dfe1 120%);
+    width: 29px;
+    height: 36px;
+    top: 346px;
+    left: 152px;
+}
+
+.glasswindow6 {
+    position: absolute;
+    border: solid;
+    background: linear-gradient(135deg, #76a4f5 -20%, #d8dfe1 120%);
+    width: 29px;
+     height: 36px;
+     top: 346px;
+    left: 185px;
+}
+.glasswindow7{
+    position: absolute;
+        border: solid;
+        background: linear-gradient(135deg, #76a4f5 -20%, #d8dfe1 120%);
+        width: 9px;
+        height: 30px;
+        top: 485px;
+        left: 138px;
+}
+.plant1{
+    position: absolute;
+    clip-path: polygon(0 37%, 32% 37%, 59% 37%, 52% 100%, 6% 99%);
+    background-color: black;
+    width:20px;
+    height: 20px;
+    top: 300px;
+    left: 198px;
+}
+.plant2 {
+    position: absolute;
+    clip-path: polygon(0 37%, 32% 37%, 59% 37%, 52% 100%, 6% 99%);
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    top: 300px;
+    left: 214px;
+}
+.flower1{
+    position: absolute;
+    background-color: green;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    top: 302px;
+    left: 202px;
+}
+.flower2 {
+    position: absolute;
+    background-color: green;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    top: 302px;
+    left: 196px;
+}
+.flower3 {
+    position: absolute;
+    background-color: rgb(53, 128, 0);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    top: 299px;
+    left: 199px;
+}
+.flower6 {
+    position: absolute;
+    background-color: green;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    top: 302px;
+    left: 220px;
+}
+
+.flower5 {
+    position: absolute;
+    background-color: green;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    top: 302px;
+    left: 210px;
+}
+
+.flower4 {
+    position: absolute;
+    background-color: rgb(53, 128, 0);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    top: 299px;
+    left: 215px;
+}
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 550px;
+    width: 100%;
+    z-index: -2;
+    background: linear-gradient(-175deg, white, rgb(149, 220, 233));
+
+}
+.background2{
+    position: absolute;
+        top: 540px;
+        left: 0;
+        height: 100px;
+        width: 100%;
+        border: solid;
+        border-left:transparent;
+        border-right:transparent;
+        z-index: -1;
+        background: linear-gradient(-175deg, rgb(215, 253, 201), rgb(64, 104, 77));
+
+}
+.sun{
+    position:absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 80%;
+    height: 70px;
+    width: 70px;
+    background:radial-gradient(rgb(237, 237, 7) , rgb(248, 248, 152) 60%,rgb(251, 251, 181) );
+    box-shadow: 0px 0px 70px #fff601 ;
+    
+}
+.ventilator{
+    position: absolute;
+    top: 170px;
+    left: 540px;
+    clip-path: polygon(20% 0%, 0% 20%, 40% 55%, 0% 80%, 20% 100%, 50% 60%, 80% 100%, 100% 80%, 60% 54%, 100% 20%, 80% 0%, 50% 40%);
+     height: 30px;
+     width: 30px;
+     background: radial-gradient(rgb(251, 241, 165),rgb(47, 163, 47),rgb(138, 14, 14));
+     animation: wind 3s linear 0s infinite normal ;
+    
+
+}
+.ventilatorfoot{
+    position: absolute;
+    top: 188px;
+    left: 553px;
+    width: 3px;
+    height: 40px;
+    background-color: grey;
+    z-index: -1;
+}
+
+@keyframes wind {
+    0% {}
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.garage{
+position: absolute;
+top: 386px;
+left: 422px;
+width: 200px;
+height:150px;
+border: solid;
+background-color: rgb(154, 150, 150);
+
+}
+.linegarage{
+   
+    border: solid 1px;
+    width: 200px;
+    box-shadow: 0 1px 3px black;
+}
+.garagelock{
+    width: 60px;
+    border: solid;
+    border-radius: 35px;
+}
+.plant3{
+    position: absolute;
+    top: 487px;
+    left: 630px;
+    z-index: -2;
+    display: flex;
+    
+}
+.plant4{
+    position: absolute;
+        top: 487px;
+        left: 1080px;
+        z-index: -2;
+        display: flex;
+}
+.plant5 {
+    position: absolute;
+    top: 487px;
+    left: 6px;
+    z-index: -2;
+    display: flex;
+}
+.leaf1{
+    position: relative;
+    top: 0;
+    left: 0px;
+    background: rgb(31, 106, 31);
+    border-radius: 50%;
+    width: 80px;
+    height: 60px;
+    box-shadow: -4px 3px 1px rgb(20, 84, 20);
+}
+.leaf2 {
+    position: relative;
+    top: 0;
+    left: -30px;
+    background: rgb(31, 106, 31);
+    border-radius: 50%;
+    width: 80px;
+    height: 60px;
+    transform: rotate(10deg);
+    
+}
+.flower7{
+    position: relative;
+    top: 10px;
+    left: 39px;
+    clip-path: polygon(26% 0, 0 23%, 43% 53%, 0 69%, 20% 100%, 50% 60%, 80% 100%, 100% 60%, 57% 54%, 100% 29%, 69% 0, 50% 47%);
+    width: 20px;
+    height: 20px;
+    background: rosybrown;
+}
+.flower8 {
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    clip-path: polygon(26% 0, 0 23%, 43% 53%, 0 69%, 20% 100%, 50% 60%, 80% 100%, 100% 60%, 57% 54%, 100% 29%, 69% 0, 50% 47%);
+    width: 14px;
+    height: 14px;
+    background: rgb(209, 115, 115);
+}
+.lowertree{
+    position: absolute;
+    top: 441px;
+    left: 900px;
+    width: 10px;
+    height: 100px;
+    background-color: rgb(169, 90, 26);
+    z-index: -2;
+    box-shadow: -5px 0 1px rgb(97, 49, 11);
+}
+.tree1 {
+    position: absolute;
+    top: 230px;
+    left: 831px;
+    width: 150px;
+    height: 220px;
+    border-radius:50%;
+    background-color: rgb(34, 130, 34);
+    z-index: -2;
+    transform:rotate(9deg);
+    box-shadow: -2px 7px 2px rgb(10, 91, 10);
+}
+.tree2 {
+    position: absolute;
+    top: 220px;
+    left: 831px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: rgb(34, 130, 34);
+    z-index: -2;
+    transform: rotate(9deg);
+    
+}
+.tree3 {
+    position: absolute;
+    top: 240px;
+    left: 777px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: rgb(34, 130, 34);
+    z-index: -2;
+    transform: rotate(9deg);
+    box-shadow: -12px 0px 2px rgb(10, 91, 10);
+}
+.tree4 {
+    position: absolute;
+    top: 250px;
+    left: 920px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(34, 130, 34);
+    z-index: -2;
+    transform: rotate(9deg);
+}
